@@ -3,7 +3,6 @@ const spaceShip = {
   Passengers: ["John", "Steve", "Sam", "Danielle"],
   Shields: true,
   Speedometer: 0,
-  distance: 0,
   listPassengers: function () {
     let passenger = this.Passengers;
     for (let i = 0; i < passenger.length; i++) {
