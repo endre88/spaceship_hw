@@ -36,29 +36,6 @@ const spaceShip = {
       }
     }
   },
-
-  /*if (this.fuel <= 0) {
-      distance = distance - this.fuel / 2;
-      this.fuel = 0;
-      this.Speedometer += distance;
-    } else {
-      this.Speedometer += distance;
-    }
-
-    if (this.fuel <= 0) {
-      distance = distance - this.fuel / 2;
-      this.fuel = 0;
-      this.Speedometer += distance;
-    } else {
-      this.Speedometer += distance;
-    }
-    if (this.fuel < 30) {
-      this.Shields = false;
-      console.log("Fuel is Low, turning off shields...");
-      console.log("the SpaceShip is at: " + this.Speedometer);
-      console.log("the SpaceShip has: " + this.fuel + " fuel");
-    }
-  },*/
 };
 
 spaceShip.listPassengers();
